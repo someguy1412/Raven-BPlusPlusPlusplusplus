@@ -93,6 +93,7 @@ public class ModuleManager {
         addModule(new Targets());
         addModule(new SumoFences());
         addModule(new Spin());
+        addModule(new AntiKnockback());
         initialized = true;
     }
 
